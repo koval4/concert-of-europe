@@ -1,4 +1,4 @@
-color = { 205  212  228 }
+color = { 215  222  252 }
 graphical_culture = EuropeanGC
 
 party = {
@@ -199,32 +199,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa" "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 	battleship = {
-		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa" "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 	ironclad = {
-		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa" "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 	manowar = {
-		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa" "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 	cruiser = {
-		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa" "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 	frigate = {
-		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa" "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 	monitor = {
-		"Uusimaa" "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa" "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" 
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 	clipper_transport = {
 		
@@ -233,7 +233,7 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Uusimaa"  "Väinämöinen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
-		"Rauma" "Karelen" "Åbo"
+		"Uusimaa"  "Vï¿½inï¿½mï¿½inen" "Ilmarinen" "Joukahainen" "Birger Jarl" "Per Brahe" "Tapio" "Lemminkï¿½inen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu"
+		"Rauma" "Karelen" "ï¿½bo"
 	}
 }
