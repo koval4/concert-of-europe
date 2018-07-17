@@ -1,4 +1,6 @@
 color = {150 77 240}
+prussian_constitutionalism2 = {255 73 63}
+prussian_constitutionalism3 = {255 73 63}
 graphical_culture = IndianGC
 
 party = {
