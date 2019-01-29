@@ -675,14 +675,14 @@ east_slavic = {
 	}
 	ukrainian = {
 		color = {160 160 60}
-		first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
-		Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
-		Viktor Volodimir Vladislav Yuriy }
+		first_names = { Olexiy Andriy Anton Arkadiy Borys Dmytro Fedir Hryhoriy Ivan Lavr Leonid Lev 
+		Mikhaylo Mykola Mykyta  Oleksandr Pavlo Petro Roman Semen Sergiy Valeriy 
+		Viktor Volodymyr Vladyslav Yuriy }
 		
 		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
 		Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
 		Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
-		radicalism = 10
+		radicalism = 15
 	}
 	ugrian = {  
 		color = {60 160 160}

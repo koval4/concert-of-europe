@@ -784,10 +784,84 @@ political_decisions = {
 				remove_core = RUT
 				add_core = UKR
 			}
-			675 = { add_core = UKR }
+			#675 = { add_core = UKR }
 			663 = { add_core = UKR }
 			704 = { add_core = UKR }
 			705 = { add_core = UKR }
+			random_country = {
+				limit = {
+					tag = UKR
+					ai = yes
+					THIS = { ai = yes }
+				}
+				inherit = THIS
+			}
+			random_country = {
+				limit = {
+					tag = UKR
+					ai = yes
+					THIS = { ai = no }
+				}
+				any_owned = { secede_province = THIS }
+				THIS = {
+					random_owned = {
+						limit = { province_id = 958 }
+						owner = { capital = 958 }
+					}
+					change_tag = UKR
+				}	
+			}
+			random_country = {
+				limit = {
+					tag = UKR
+					ai = no
+				}
+				country_event = 60130
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	don_unite_with_ukraine = {
+		picture = greater_ukraine
+		potential = {
+			tag = DON
+			exists = UKR
+			NOT = { has_country_flag = unite_with_ukraine }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				part_of_sphere = no
+				sphere_owner = { is_sphere_leader_of = UKR }
+			}
+			UKR = {
+				war = no
+				neighbour = THIS
+				is_vassal = no
+			}
+		}
+
+		effect = {
+			set_country_flag = unite_with_ukraine
+			all_core = {
+				remove_core = DON
+				add_core = UKR
+			}
+			#979 = { add_core = UKR }
+			#980 = { add_core = UKR }
+			#1045 = { add_core = UKR }
+			#1046 = { add_core = UKR }
+			#1047 = { add_core = UKR }
+			#1048 = { add_core = UKR }
+			#1049 = { add_core = UKR }
+			#1050 = { add_core = UKR }
+			#1051 = { add_core = UKR }
 			random_country = {
 				limit = {
 					tag = UKR

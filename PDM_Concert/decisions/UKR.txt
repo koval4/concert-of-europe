@@ -1,0 +1,119 @@
+political_decisions = {
+	ukrainian_crimea = {
+		picture = greater_ukraine
+		potential = {
+			tag = UKR
+			OR = {
+				NOT = { 964 = { is_core = UKR } } # Simferopol
+				NOT = { 966 = { is_core = UKR } } # Kerch
+				NOT = { 967 = { is_core = UKR } } # Sevastopol
+			}
+		}
+		effect = {
+			964 = { add_core = UKR }
+			966 = { add_core = UKR }
+			967 = { add_core = UKR }
+		}
+	}
+
+	ukrainian_tatar_crimea = {
+		picture = greater_ukraine
+		potential = {
+			tag = UKR
+			OR = {
+				NOT = { 964 = { is_core = UKR } } # Simferopol
+				NOT = { 966 = { is_core = UKR } } # Kerch
+				NOT = { 967 = { is_core = UKR } } # Sevastopol
+			}
+		}
+		effect = {
+			add_accepted_culture = tatar
+			964 = { add_core = UKR }
+			966 = { add_core = UKR }
+			967 = { add_core = UKR }
+		}
+	}
+
+	ukrainian_izmail = {
+		picture = greater_ukraine
+		potential = {
+			tag = UKR
+			OR = {
+				NOT = { 678 = { is_core = UKR } } # Izmail
+			}
+		}
+		effect = {
+			678 = { add_core = UKR }
+		}
+	}
+
+	ukrainian_north_east_slobozhanschyna = {
+		picture = greater_ukraine
+		potential = {
+			tag = UKR
+			OR = {
+				NOT = { 977 = { is_core = UKR } } # Kursk
+				NOT = { 1019 = { is_core = UKR } } # Voronezh
+			}
+		}
+		effect = {
+			977 = { add_core = UKR }
+			1019 = { add_core = UKR }
+		}
+	}
+
+	rusophobia = {
+		picture = greater_ukraine
+		potential = {
+			tag = UKR
+			accepted_culture = russian
+		}
+		effect = {
+			remove_accepted_culture = russian
+			relation = { who = RUS value = -100 }
+		}
+	}
+
+	provinces_derusification = {
+		picture = greater_ukraine
+		potential = {
+			tag = UKR
+			NOT = { accepted_culture = russian }
+			NOT = { has_global_flag = ukraine_has_renamed_provinces }
+		}
+
+		effect = {
+			prestige = 5
+			958 = { change_province_name = "Kyiv" }
+			962 = { change_province_name = "Chernihyv" }
+			968 = { change_province_name = "Odesa" }
+			970 = { change_province_name = "Mykolayiv" }
+			971 = { change_province_name = "Kryvyi Rih" }
+			972 = { change_province_name = "Sicheslav" }
+			975 = { change_province_name = "Yuzivka" }
+			978 = { change_province_name = "Kharkiv" }
+			set_global_flag = ukraine_has_renamed_provinces
+		}
+	}
+
+	#ukr_land_reform = {
+	#	alert = yes
+	#	
+	#	potential = {
+	#		tag = UKR
+	#		NOT = { land_property = land_purchase }
+	#	}
+	#
+	#	allow = {
+	#		ideology = conservative
+	#	}
+	#	
+	#	effect = {
+	#		social_reform = land_purchase
+	#	}
+	#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+}
